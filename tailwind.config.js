@@ -1,9 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./resources/**/*.blade.php",
+    "./index.html",
+    "./artikel.html",
+    "./tentang-kami.html",
     "./resources/**/*.js",
-    "./resources/**/*.vue",
   ],
   theme: {
     extend: {

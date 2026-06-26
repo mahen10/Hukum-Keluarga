@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel & Edukasi Hukum Keluarga - Hukum Keluarga Indonesia</title>
+    <meta name="description" content="Kumpulan artikel edukatif, panduan praktis, dan literasi hukum mengenai hukum keluarga di Indonesia.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- CSS (Vite will bundle this) -->
+  <script type="module" crossorigin src="/assets/app-CzYY2NP4.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/app-BYJUagM3.css">
+</head>
+<body class="font-sans text-slate-800 bg-slate-50 min-h-screen flex flex-col">
+
+    <!-- Header / Navbar -->
+    <header class="fixed top-0 left-0 w-full z-50 bg-white transition-all duration-300 border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center space-x-3 group">
+                    <div class="p-2 bg-primary/5 text-accent rounded-lg group-hover:bg-primary/10 transition-colors">
+                        <i data-lucide="scale" class="w-8 h-8"></i>
+                    </div>
+                    <div>
+                        <span class="block font-serif font-bold text-lg md:text-xl text-primary tracking-wide leading-tight group-hover:text-accent transition-colors">HUKUM KELUARGA</span>
+                        <span class="block font-serif font-bold text-sm text-primary tracking-wider -mt-1 leading-tight group-hover:text-accent transition-colors">INDONESIA</span>
+                        <span class="block text-[10px] text-slate-400 font-medium tracking-normal mt-0.5">Informasi & Edukasi Hukum Keluarga</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Nav Links -->
+                <nav class="hidden lg:flex space-x-8">
+                    <a href="index.html" class="text-slate-600 hover:text-primary font-medium hover:border-b-2 hover:border-primary pb-1 transition-all">Home</a>
+                    <a href="tentang-kami.html" class="text-slate-600 hover:text-primary font-medium hover:border-b-2 hover:border-primary pb-1 transition-all">Tentang Kami</a>
+                    <a href="index.html#layanan" class="text-slate-600 hover:text-primary font-medium hover:border-b-2 hover:border-primary pb-1 transition-all">Layanan</a>
+                    <a href="artikel.html" class="text-accent font-semibold border-b-2 border-accent pb-1">Artikel</a>
+                    <a href="artikel.html?cat=peraturan" class="text-slate-600 hover:text-primary font-medium hover:border-b-2 hover:border-primary pb-1 transition-all">Peraturan</a>
+                    <a href="index.html#faq" class="text-slate-600 hover:text-primary font-medium hover:border-b-2 hover:border-primary pb-1 transition-all">FAQ</a>
+                    <a href="index.html#kontak" class="text-slate-600 hover:text-primary font-medium hover:border-b-2 hover:border-primary pb-1 transition-all">Kontak</a>
+                </nav>
+
+                <!-- Consultation CTA Button -->
+                <div class="hidden lg:block">
+                    <a href="index.html#kontak" class="inline-flex items-center space-x-2 bg-primary text-white px-5 py-2.5 rounded-md hover:bg-accent hover:shadow-lg transition-all duration-300 font-medium text-sm">
+                        <i data-lucide="phone-call" class="w-4 h-4"></i>
+                        <span>KONSULTASI</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="lg:hidden">
+                    <button id="mobile-menu-btn" class="p-2 rounded-md text-slate-600 hover:text-primary hover:bg-slate-100 focus:outline-none transition-colors" aria-expanded="false">
+                        <i data-lucide="menu" class="w-6 h-6 menu-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden flex-col bg-white border-t border-slate-100 py-4 px-6 space-y-4 shadow-inner">
+            <a href="index.html" class="text-slate-600 hover:text-primary font-medium transition-colors">Home</a>
+            <a href="tentang-kami.html" class="text-slate-600 hover:text-primary font-medium transition-colors">Tentang Kami</a>
+            <a href="index.html#layanan" class="text-slate-600 hover:text-primary font-medium transition-colors">Layanan</a>
+            <a href="artikel.html" class="text-accent font-semibold">Artikel</a>
+            <a href="artikel.html?cat=peraturan" class="text-slate-600 hover:text-primary font-medium transition-colors">Peraturan</a>
+            <a href="index.html#faq" class="text-slate-600 hover:text-primary font-medium transition-colors">FAQ</a>
+            <a href="index.html#kontak" class="text-slate-600 hover:text-primary font-medium transition-colors">Kontak</a>
+            <a href="index.html#kontak" class="flex items-center justify-center space-x-2 bg-primary text-white py-3 rounded-md hover:bg-accent transition-colors font-medium">
+                <i data-lucide="phone-call" class="w-4 h-4"></i>
+                <span>KONSULTASI</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- Page Header Section -->
+    <section class="pt-32 pb-12 bg-primary text-white relative">
+        <div class="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(181,138,61,0.08),transparent_40%)] pointer-events-none"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+            <span class="text-accent font-semibold text-xs md:text-sm uppercase tracking-widest block mb-2">Edukasi & Literasi</span>
+            <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold">Artikel Hukum Keluarga</h1>
+            <p class="text-slate-300 text-sm md:text-base max-w-2xl mx-auto mt-4 leading-relaxed font-light">
+                Temukan panduan praktis, penjelasan peraturan, dan jawaban atas berbagai masalah hukum pernikahan, perceraian, hak asuh anak, dan warisan.
+            </p>
+        </div>
+    </section>
+
+    <!-- Main Content Section -->
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-grow">
+        <!-- Search & Filters Container -->
+        <div class="bg-white rounded-xl shadow-sm border border-slate-100 p-6 mb-10 space-y-6">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-4 items-center">
+                <!-- Search Bar -->
+                <div class="md:col-span-4 relative">
+                    <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none text-slate-400">
+                        <i data-lucide="search" class="w-4 h-4"></i>
+                    </div>
+                    <input type="text" id="article-search" placeholder="Cari artikel hukum..." class="w-full pl-10 pr-4 py-2.5 text-sm rounded bg-slate-50 border border-slate-200 text-slate-800 placeholder-slate-400 focus:outline-none focus:border-accent focus:bg-white transition-colors">
+                </div>
+
+                <!-- Category Filters -->
+                <div class="md:col-span-8 flex flex-wrap gap-2 items-center">
+                    <span class="text-xs font-semibold text-slate-500 mr-2 hidden sm:inline">Kategori:</span>
+                    <button data-filter="semua" class="filter-btn px-4 py-2 text-xs font-semibold rounded transition-colors bg-accent text-white">Semua</button>
+                    <button data-filter="perceraian" class="filter-btn px-4 py-2 text-xs font-semibold rounded transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200">Perceraian</button>
+                    <button data-filter="hak-asuh" class="filter-btn px-4 py-2 text-xs font-semibold rounded transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200">Hak Asuh</button>
+                    <button data-filter="warisan" class="filter-btn px-4 py-2 text-xs font-semibold rounded transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200">Warisan</button>
+                    <button data-filter="pernikahan" class="filter-btn px-4 py-2 text-xs font-semibold rounded transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200">Pernikahan</button>
+                    <button data-filter="peraturan" class="filter-btn px-4 py-2 text-xs font-semibold rounded transition-colors bg-gray-100 text-gray-700 hover:bg-gray-200">Peraturan</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Empty State -->
+        <div id="no-articles-found" class="hidden text-center py-16 bg-white rounded-xl shadow-sm border border-slate-100">
+            <div class="w-16 h-16 bg-slate-100 text-slate-400 rounded-full flex items-center justify-center mx-auto mb-4">
+                <i data-lucide="file-question" class="w-8 h-8"></i>
+            </div>
+            <h3 class="font-serif text-xl font-bold text-primary mb-2">Artikel Tidak Ditemukan</h3>
+            <p class="text-slate-500 text-sm max-w-md mx-auto">
+                Maaf, kami tidak dapat menemukan artikel yang cocok dengan pencarian Anda. Coba kata kunci lain atau pilih kategori berbeda.
+            </p>
+        </div>
+
+        <!-- Articles Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Article 1 -->
+            <article class="article-card bg-white rounded-xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300 flex flex-col h-full fade-in" data-category="perceraian">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=600&q=80" alt="Cara Mengurus Perceraian" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-semibold text-accent uppercase mb-2">Perceraian</span>
+                    <h3 class="font-serif text-lg font-bold text-primary mb-2 line-clamp-2 hover:text-accent transition-colors">
+                        <a href="#">Cara Mengurus Perceraian di Pengadilan Agama</a>
+                    </h3>
+                    <p class="text-slate-500 text-xs leading-relaxed mb-4 line-clamp-3">
+                        Langkah-langkah mengajukan gugatan cerai, syarat dokumen yang perlu disiapkan, biaya perkara, dan estimasi waktu proses sidang di Pengadilan Agama di Indonesia.
+                    </p>
+                    <div class="flex items-center justify-between text-[11px] text-slate-400 mt-auto pt-4 border-t border-slate-100">
+                        <span class="flex items-center"><i data-lucide="calendar" class="w-3.5 h-3.5 mr-1"></i> 25 Mei 2024</span>
+                        <span class="flex items-center"><i data-lucide="user" class="w-3.5 h-3.5 mr-1"></i> Admin</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="article-card bg-white rounded-xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300 flex flex-col h-full fade-in" data-category="hak-asuh">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80" alt="Hak Asuh Anak Setelah Perceraian" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-semibold text-accent uppercase mb-2">Hak Asuh</span>
+                    <h3 class="font-serif text-lg font-bold text-primary mb-2 line-clamp-2 hover:text-accent transition-colors">
+                        <a href="#">Hak Asuh Anak Setelah Perceraian</a>
+                    </h3>
+                    <p class="text-slate-500 text-xs leading-relaxed mb-4 line-clamp-3">
+                        Siapa yang berhak mendapatkan hak asuh anak di bawah umur setelah orang tua berpisah? Ini penjelasannya berdasarkan KHI dan Undang-Undang Perkawinan Indonesia.
+                    </p>
+                    <div class="flex items-center justify-between text-[11px] text-slate-400 mt-auto pt-4 border-t border-slate-100">
+                        <span class="flex items-center"><i data-lucide="calendar" class="w-3.5 h-3.5 mr-1"></i> 20 Mei 2024</span>
+                        <span class="flex items-center"><i data-lucide="user" class="w-3.5 h-3.5 mr-1"></i> Adv. Rahmat</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="article-card bg-white rounded-xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300 flex flex-col h-full fade-in" data-category="warisan">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=600&q=80" alt="Pembagian Harta Gono Gini" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-semibold text-accent uppercase mb-2">Warisan / Perceraian</span>
+                    <h3 class="font-serif text-lg font-bold text-primary mb-2 line-clamp-2 hover:text-accent transition-colors">
+                        <a href="#">Pembagian Harta Gono Gini Menurut Hukum</a>
+                    </h3>
+                    <p class="text-slate-500 text-xs leading-relaxed mb-4 line-clamp-3">
+                        Pengertian harta bersama, tata cara pembagiannya jika terjadi perceraian, serta solusi hukum jika sertifikat aset hanya atas nama salah satu pihak saja.
+                    </p>
+                    <div class="flex items-center justify-between text-[11px] text-slate-400 mt-auto pt-4 border-t border-slate-100">
+                        <span class="flex items-center"><i data-lucide="calendar" class="w-3.5 h-3.5 mr-1"></i> 15 Mei 2024</span>
+                        <span class="flex items-center"><i data-lucide="user" class="w-3.5 h-3.5 mr-1"></i> Admin</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 4 -->
+            <article class="article-card bg-white rounded-xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300 flex flex-col h-full fade-in" data-category="warisan">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=600&q=80" alt="Warisan Hukum Islam" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-semibold text-accent uppercase mb-2">Warisan</span>
+                    <h3 class="font-serif text-lg font-bold text-primary mb-2 line-clamp-2 hover:text-accent transition-colors">
+                        <a href="#">Warisan Menurut Hukum Islam dan KUHPerdata</a>
+                    </h3>
+                    <p class="text-slate-500 text-xs leading-relaxed mb-4 line-clamp-3">
+                        Perbedaan mendasar pembagian warisan menurut hukum waris Islam (Faraid) dan hukum waris KUHPerdata Barat yang berlaku secara yuridis di Indonesia.
+                    </p>
+                    <div class="flex items-center justify-between text-[11px] text-slate-400 mt-auto pt-4 border-t border-slate-100">
+                        <span class="flex items-center"><i data-lucide="calendar" class="w-3.5 h-3.5 mr-1"></i> 10 Mei 2024</span>
+                        <span class="flex items-center"><i data-lucide="user" class="w-3.5 h-3.5 mr-1"></i> Adv. Sari</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 5 -->
+            <article class="article-card bg-white rounded-xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300 flex flex-col h-full fade-in" data-category="pernikahan">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Perjanjian Pranikah" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-semibold text-accent uppercase mb-2">Pernikahan</span>
+                    <h3 class="font-serif text-lg font-bold text-primary mb-2 line-clamp-2 hover:text-accent transition-colors">
+                        <a href="#">Pentingnya Perjanjian Kawin (Pranikah)</a>
+                    </h3>
+                    <p class="text-slate-500 text-xs leading-relaxed mb-4 line-clamp-3">
+                        Mengapa perjanjian pranikah (prenuptial agreement) penting dibuat? Menepis mitos bahwa perjanjian ini hanya untuk memperhitungkan perceraian.
+                    </p>
+                    <div class="flex items-center justify-between text-[11px] text-slate-400 mt-auto pt-4 border-t border-slate-100">
+                        <span class="flex items-center"><i data-lucide="calendar" class="w-3.5 h-3.5 mr-1"></i> 05 Mei 2024</span>
+                        <span class="flex items-center"><i data-lucide="user" class="w-3.5 h-3.5 mr-1"></i> Adv. Rahmat</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 6 -->
+            <article class="article-card bg-white rounded-xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300 flex flex-col h-full fade-in" data-category="hak-asuh">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1542038784456-1ea8e935640e?auto=format&fit=crop&w=600&q=80" alt="Adopsi Anak" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-semibold text-accent uppercase mb-2">Hak Asuh</span>
+                    <h3 class="font-serif text-lg font-bold text-primary mb-2 line-clamp-2 hover:text-accent transition-colors">
+                        <a href="#">Prosedur Pengangkatan Anak (Adopsi) Secara Sah</a>
+                    </h3>
+                    <p class="text-slate-500 text-xs leading-relaxed mb-4 line-clamp-3">
+                        Bagaimana mengurus adopsi anak secara legal melalui keputusan pengadilan di Indonesia agar hak hukum anak angkat terlindungi sepenuhnya.
+                    </p>
+                    <div class="flex items-center justify-between text-[11px] text-slate-400 mt-auto pt-4 border-t border-slate-100">
+                        <span class="flex items-center"><i data-lucide="calendar" class="w-3.5 h-3.5 mr-1"></i> 01 Mei 2024</span>
+                        <span class="flex items-center"><i data-lucide="user" class="w-3.5 h-3.5 mr-1"></i> Admin</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 7 -->
+            <article class="article-card bg-white rounded-xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300 flex flex-col h-full fade-in" data-category="peraturan">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=600&q=80" alt="Undang Undang Perkawinan" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-semibold text-accent uppercase mb-2">Peraturan</span>
+                    <h3 class="font-serif text-lg font-bold text-primary mb-2 line-clamp-2 hover:text-accent transition-colors">
+                        <a href="#">Memahami Batas Usia Minimal Menikah Terbaru</a>
+                    </h3>
+                    <p class="text-slate-500 text-xs leading-relaxed mb-4 line-clamp-3">
+                        Ulasan mengenai revisi Undang-Undang Perkawinan No. 16 Tahun 2019 yang menetapkan batas usia minimal menikah bagi laki-laki dan perempuan menjadi 19 tahun.
+                    </p>
+                    <div class="flex items-center justify-between text-[11px] text-slate-400 mt-auto pt-4 border-t border-slate-100">
+                        <span class="flex items-center"><i data-lucide="calendar" class="w-3.5 h-3.5 mr-1"></i> 27 April 2024</span>
+                        <span class="flex items-center"><i data-lucide="user" class="w-3.5 h-3.5 mr-1"></i> Adv. Sari</span>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Article 8 -->
+            <article class="article-card bg-white rounded-xl shadow-sm overflow-hidden border border-slate-100 hover:shadow-lg transition-all duration-300 flex flex-col h-full fade-in" data-category="pernikahan">
+                <div class="h-48 overflow-hidden relative">
+                    <img src="https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=600&q=80" alt="Pernikahan Siri" class="w-full h-full object-cover">
+                </div>
+                <div class="p-6 flex flex-col flex-grow">
+                    <span class="text-xs font-semibold text-accent uppercase mb-2">Pernikahan</span>
+                    <h3 class="font-serif text-lg font-bold text-primary mb-2 line-clamp-2 hover:text-accent transition-colors">
+                        <a href="#">Status Hukum Nikah Siri dan Akibat Hukumnya</a>
+                    </h3>
+                    <p class="text-slate-500 text-xs leading-relaxed mb-4 line-clamp-3">
+                        Bagaimanakah kedudukan hukum pernikahan siri (tidak tercatat) bagi istri dan anak yang dilahirkan menurut hukum negara Indonesia?
+                    </p>
+                    <div class="flex items-center justify-between text-[11px] text-slate-400 mt-auto pt-4 border-t border-slate-100">
+                        <span class="flex items-center"><i data-lucide="calendar" class="w-3.5 h-3.5 mr-1"></i> 20 April 2024</span>
+                        <span class="flex items-center"><i data-lucide="user" class="w-3.5 h-3.5 mr-1"></i> Admin</span>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-primary text-slate-300 pt-16 pb-8 border-t border-primary-light mt-auto">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-white/5">
+                <!-- Col 1: About -->
+                <div class="lg:col-span-4 space-y-4">
+                    <a href="index.html" class="flex items-center space-x-2 text-white">
+                        <i data-lucide="scale" class="w-7 h-7 text-accent"></i>
+                        <div class="leading-none">
+                            <span class="block font-serif font-bold text-base tracking-wider">HUKUM KELUARGA</span>
+                            <span class="block font-serif font-bold text-xs text-accent tracking-widest mt-0.5">INDONESIA</span>
+                        </div>
+                    </a>
+                    <p class="text-slate-400 text-xs leading-relaxed">
+                        Website informasi dan edukasi hukum keluarga di Indonesia. Memberikan informasi akurat, mudah dipahami, dan terpercaya untuk seluruh masyarakat.
+                    </p>
+                    <!-- Socials -->
+                    <div class="flex space-x-3 pt-2">
+                        <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-accent hover:text-primary transition-all duration-300 flex items-center justify-center text-slate-300">
+                            <i data-lucide="facebook" class="w-4 h-4"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-accent hover:text-primary transition-all duration-300 flex items-center justify-center text-slate-300">
+                            <i data-lucide="instagram" class="w-4 h-4"></i>
+                        </a>
+                        <a href="#" class="w-8 h-8 rounded-full bg-white/5 hover:bg-accent hover:text-primary transition-all duration-300 flex items-center justify-center text-slate-300">
+                            <i data-lucide="youtube" class="w-4 h-4"></i>
+                        </a>
+                        <a href="https://wa.me/6281234567890" target="_blank" class="w-8 h-8 rounded-full bg-white/5 hover:bg-accent hover:text-primary transition-all duration-300 flex items-center justify-center text-slate-300">
+                            <i data-lucide="phone" class="w-4 h-4"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Col 2: Menu -->
+                <div class="lg:col-span-2 space-y-4">
+                    <h3 class="text-white font-serif font-semibold text-sm tracking-wider">Menu</h3>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="index.html" class="hover:text-accent transition-colors">Home</a></li>
+                        <li><a href="tentang-kami.html" class="hover:text-accent transition-colors">Tentang Kami</a></li>
+                        <li><a href="index.html#layanan" class="hover:text-accent transition-colors">Layanan</a></li>
+                        <li><a href="artikel.html" class="hover:text-accent transition-colors">Artikel</a></li>
+                        <li><a href="artikel.html?cat=peraturan" class="hover:text-accent transition-colors">Peraturan</a></li>
+                        <li><a href="index.html#faq" class="hover:text-accent transition-colors">FAQ</a></li>
+                        <li><a href="index.html#kontak" class="hover:text-accent transition-colors">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 3: Layanan -->
+                <div class="lg:col-span-2 space-y-4">
+                    <h3 class="text-white font-serif font-semibold text-sm tracking-wider">Layanan</h3>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="artikel.html?cat=perceraian" class="hover:text-accent transition-colors">Perceraian</a></li>
+                        <li><a href="artikel.html?cat=hak-asuh" class="hover:text-accent transition-colors">Hak Asuh Anak</a></li>
+                        <li><a href="artikel.html?cat=warisan" class="hover:text-accent transition-colors">Warisan</a></li>
+                        <li><a href="artikel.html?cat=pernikahan" class="hover:text-accent transition-colors">Pernikahan</a></li>
+                        <li><a href="index.html#kontak" class="hover:text-accent transition-colors">Mediasi Keluarga</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 4: Links -->
+                <div class="lg:col-span-2 space-y-4">
+                    <h3 class="text-white font-serif font-semibold text-sm tracking-wider">Link Penting</h3>
+                    <ul class="space-y-2 text-xs">
+                        <li><a href="#" class="hover:text-accent transition-colors">UU No. 1 Tahun 1974</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Kompilasi Hukum Islam</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">KUH Perdata</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Peraturan MA</a></li>
+                        <li><a href="#" class="hover:text-accent transition-colors">Literasi Hukum</a></li>
+                    </ul>
+                </div>
+
+                <!-- Col 5: Newsletter -->
+                <div class="lg:col-span-2 space-y-4">
+                    <h3 class="text-white font-serif font-semibold text-sm tracking-wider">Newsletter</h3>
+                    <p class="text-slate-400 text-[11px] leading-relaxed">Dapatkan informasi terbaru seputar hukum keluarga.</p>
+                    <form class="space-y-2" onsubmit="event.preventDefault(); alert('Terima kasih telah berlangganan!'); this.reset();">
+                        <input type="email" placeholder="Masukkan email Anda" required class="w-full px-3 py-2 text-xs rounded bg-white/5 border border-white/10 text-white placeholder-slate-500 focus:outline-none focus:border-accent transition-colors">
+                        <button type="submit" class="w-full bg-accent text-primary font-bold text-xs py-2 rounded hover:bg-accent-light hover:shadow transition-colors">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Bottom Credits -->
+            <div class="pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-slate-500 space-y-4 md:space-y-0">
+                <p>&copy; 2024 Hukum Keluarga Indonesia. All Rights Reserved.</p>
+                <div class="flex space-x-4">
+                    <a href="#" class="hover:text-accent transition-colors">Kebijakan Privasi</a>
+                    <a href="#" class="hover:text-accent transition-colors">Syarat & Ketentuan</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+    
+    <!-- Script to handle direct URL query parameters for filtering -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const urlParams = new URLSearchParams(window.location.search);
+            const cat = urlParams.get('cat');
+            if (cat) {
+                const btn = document.querySelector(`.filter-btn[data-filter="${cat}"]`);
+                if (btn) {
+                    btn.click();
+                }
+            }
+        });
+    </script>
+
+    <!-- JS (Vite will bundle this) -->
+</body>
+</html>
